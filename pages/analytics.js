@@ -11,29 +11,40 @@ export default function Analytics() {
         display="flex"
         justifyContent="center"
         alignItems="center"
-        bgcolor="#1976d2"
+        bgcolor="#2F4F4F"
         position="fixed"
         top={0}
         left={0}
         zIndex={1000}
       >
         <Link href="/" passHref>
-          <Button variant="contained" style={{ margin: '0 10px' }}>Home</Button>
+          <Button variant="contained" style={{ backgroundColor: "#333333", margin: '0 10px' }}>Home</Button>
         </Link>
         <Link href="/inventory" passHref>
-          <Button variant="contained" style={{ margin: '0 10px' }}>Inventory</Button>
+          <Button variant="contained" style={{ backgroundColor: "#333333", margin: '0 10px' }}>Inventory</Button>
         </Link>
         <Link href="/analytics" passHref>
-          <Button variant="contained" style={{ margin: '0 10px' }}>Analytics</Button>
+          <Button variant="contained" style={{ backgroundColor: "#333333", margin: '0 10px' }}>Analytics</Button>
         </Link>
         <Link href="/settings" passHref>
-          <Button variant="contained" style={{ margin: '0 10px' }}>Settings</Button>
+          <Button variant="contained" style={{ backgroundColor: "#333333", margin: '0 10px' }}>Settings</Button>
         </Link>
       </Box>
 
+      {/* Main Content */}
       <Box mt="150px" width="100%" display="flex" justifyContent="center">
-        <Typography variant="h4">Analytics Page (Content to be added)</Typography>
+        <Typography variant="h4">Welcome to the Analytics Page!</Typography>
       </Box>
+      
+      <Box>
+        {/* Add your Analytics chart and graphs here */}
+
+      </Box>
+
+
+
+
+
     </Box>
   );
 }

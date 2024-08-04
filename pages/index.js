@@ -32,8 +32,28 @@ export default function Home() {
       </Box>
 
       {/* Main Content */}
-      <Box mt="150px" width="100%" display="flex" justifyContent="center">
-        <Typography variant="h4">Welcome to the Home Page!</Typography>
+      <Box mt="150px" width="100%" display="flex" justifyContent="space-around">
+        {/* Weekly Reports Section */}
+        <Box width="45%" bgcolor="#E0E0E0" padding={4} borderRadius={2}>
+          <Typography variant="h5" mb={2} align="center">Weekly Reports </Typography>
+          <Typography variant="h6" mb={1}>Charts</Typography>
+          <Typography variant="body1" mb={2}>[Charts Placeholder]</Typography>
+          <Typography variant="h6" mb={1}>Summaries</Typography>
+          <Typography variant="body1" mb={2}>[Summaries Placeholder]</Typography>
+          <Typography variant="h6" mb={1}>Recent Activities</Typography>
+          <Typography variant="body1">[Recent Activities Placeholder]</Typography>
+        </Box>
+
+        {/* Alerts Section */}
+        <Box width="45%" bgcolor="#E0E0E0" padding={4} borderRadius={2}>
+          <Typography variant="h5" mb={2} align="center" >Alerts</Typography>
+          <Typography variant="h6" mb={1}>Low Stock</Typography>
+          <Typography variant="body1" mb={2}>[Low Stock Placeholder]</Typography>
+          <Typography variant="h6" mb={1}>High Stock</Typography>
+          <Typography variant="body1" mb={2}>[High Stock Placeholder]</Typography>
+          <Typography variant="h6" mb={1}>Old Stock</Typography>
+          <Typography variant="body1">[Old Stock Placeholder]</Typography>
+        </Box>
       </Box>
     </Box>
   );
