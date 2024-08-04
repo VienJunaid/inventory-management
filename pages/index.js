@@ -32,10 +32,10 @@ export default function Home() {
       </Box>
 
       {/* Main Content */}
-      <Box mt="150px" width="100%" display="flex" justifyContent="space-around">
+      <Box mt="150px" width="100%" display="flex" justifyContent="space-around" gap={4}>
         {/* Weekly Reports Section */}
         <Box width="45%" bgcolor="#E0E0E0" padding={4} borderRadius={2}>
-          <Typography variant="h5" mb={2} align="center">Weekly Reports </Typography>
+          <Typography variant="h5" mb={2} align="center">Weekly Reports</Typography>
           <Typography variant="h6" mb={1}>Charts</Typography>
           <Typography variant="body1" mb={2}>[Charts Placeholder]</Typography>
           <Typography variant="h6" mb={1}>Summaries</Typography>
@@ -46,7 +46,7 @@ export default function Home() {
 
         {/* Alerts Section */}
         <Box width="45%" bgcolor="#E0E0E0" padding={4} borderRadius={2}>
-          <Typography variant="h5" mb={2} align="center" >Alerts</Typography>
+          <Typography variant="h5" mb={2} align="center">Alerts</Typography>
           <Typography variant="h6" mb={1}>Low Stock</Typography>
           <Typography variant="body1" mb={2}>[Low Stock Placeholder]</Typography>
           <Typography variant="h6" mb={1}>High Stock</Typography>
